@@ -3,10 +3,10 @@
 
 # Variables
 $resourceGroup = "CloudApp-RG"
-$location = "swedencentral"
+$location = "northeurope"
 $vmName = "CloudAppVM"
 $adminUsername = "azureuser"
-$vmSize = "Standard_B1s"
+$vmSize = "Standard_D2s_v3"
 
 # Create resource group
 Write-Host "Creating resource group..." -ForegroundColor Green

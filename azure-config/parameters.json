@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminPasswordOrKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCpouKOVGRGt2Smg06iPGAG5rj9W3JPvJi0hsVP86+6+rWkAeeY7iHrWLItXoXSM1AYNlVkT5k2s61qDHN8TBJES2I4enNAfUp4Tke8t1Qw4DbCbeJ0lGFNyiux0ZDcCN0OTWg++WBp64j7QPWA8zYyM7bZLbVIkVo+Gdw5eUMBLHk3yc6yN0mLobWyeRhPIOyj7nXnnuieOlt4lkIzAfYCEVkhZxMBYVmVtKLMH8BsciGaU6J6xrDgEKYAxEVTznpB87CFuhmgR8u0SHUGfdLkRNZqWfHCmkk4QzmmXi+4W66i9IeOmMR3BM7zLDmqIHCFYc56+0Wybwl/jhHDUZu1ZEzPfvnCqFZDus7fsrwKXL/PxUuqsXfjL3qiDYxv3ZJwK0UpKMQr36iAfMOcrejphRrYl5nxCG7tkwtmdS/npO+qKnJNaLx0g0K5vraUisjIg66KxgXqbXlOTof3gdCBD3NyasVOCI85KLsaPSm8DhQbiLZHX3tckUBf58I2BaG6pXhASaPABJkdfvjIOCrRDIdomYHLaVIOdH1Z1zJr2Hzyc4UX6nxfQ+VrYuAQNDkyDcmOdNfDSXwI/2RNv3A9w7S8i+EGQkq4yjplCsBMAJdwSwO2fFLs7d3Zcw9G29n65iEA7W2QiJhvVQPGZGPr58dOtTsNd0dSCBbhQ6DF1w== mk\\95hanmel@MS715269"
+    }
+  }
+}
