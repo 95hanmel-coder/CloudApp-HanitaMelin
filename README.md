@@ -53,7 +53,6 @@ Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
 WantedBy=multi-user.target
-
 3. Installation Steps (Manual)
 Provision Azure VM using Bicep.
 
@@ -65,10 +64,10 @@ Deploy published artifacts to /var/www/mycloudapp.
 
 Enable and start the service:
 
+Bash
 sudo cp mycloudapp.service /etc/systemd/system/
 sudo systemctl enable mycloudapp.service
 sudo systemctl start mycloudapp.service
-
 🔒 Security Measures
 SSH Key Authentication: Password login disabled.
 
