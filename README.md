@@ -52,3 +52,28 @@ Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
 WantedBy=multi-user.target
+
+3. Installation Steps (Manual)
+Provision Azure VM using Bicep.
+
+SSH into the VM: ssh azureuser@<public-ip>.
+
+Install .NET Runtime via Snap.
+
+Deploy published artifacts to /var/www/mycloudapp.
+
+Enable and start the service:
+
+Bash
+sudo cp mycloudapp.service /etc/systemd/system/
+sudo systemctl enable mycloudapp.service
+sudo systemctl start mycloudapp.service
+🔒 Security Measures
+SSH Key Authentication: Password login disabled.
+
+Network Security Group (NSG): Only ports 22 (SSH) and 5000 (App) are open.
+
+Least Privilege: Application runs as azureuser, not root.
+
+👤 Author
+Hanita Melin Cloud Application Deployment Assignment
