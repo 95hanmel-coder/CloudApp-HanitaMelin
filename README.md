@@ -52,7 +52,8 @@ User=azureuser
 Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
-WantedBy=multi-user.target```
+WantedBy=multi-user.target
+```
 
 3. Installation Steps (Manual)
 Provision Azure VM using Bicep.
