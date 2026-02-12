@@ -35,7 +35,8 @@ The application is hosted on an Azure Virtual Machine and exposed to the public 
 
 ### 2. Service Configuration (Systemd)
 To ensure high availability, the application is managed by a systemd service.
-File: `mycloudapp.service`
+
+**File:** `mycloudapp.service`
 
 ```ini
 [Unit]
@@ -64,7 +65,6 @@ Deploy published artifacts to /var/www/mycloudapp.
 
 Enable and start the service:
 
-Bash
 sudo cp mycloudapp.service /etc/systemd/system/
 sudo systemctl enable mycloudapp.service
 sudo systemctl start mycloudapp.service
